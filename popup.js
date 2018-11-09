@@ -21,5 +21,5 @@ function showResults(results) {
   var resultsElement = document.getElementById('results');
   resultsElement.innerHTML = results ?
     'This page uses prefetch/preload' :
-    'This page does\'t use prefetch/preload';
+    'This page doesn\'t use prefetch/preload';
 }
